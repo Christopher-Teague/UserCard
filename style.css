@@ -1,0 +1,75 @@
+* {
+    font-family: 'Roboto', serif ;
+}
+
+.container {
+    display: flex;
+    width: auto;
+    height: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: dimgrey;
+    box-shadow: 5px 5px 5px;
+}
+
+.colorBar {
+    flex: 1;
+    height: 100px;
+    background-color: dodgerblue;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    margin: 0px;
+}
+
+.user img {
+    height: 150px;
+    padding-top: 25px;
+}
+
+.user h1 {
+    margin: 5px;
+}
+
+.location h2 {
+    align-items: center;
+}
+
+.location img {
+    align-items: center;
+    height: 25px;
+    justify-items: flex-start;
+    padding-right: 10px;
+}
+
+.location {
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+
+h3 {
+    margin: 2px;
+}
+
+.editProf img {
+    align-items: center;
+    height: 15px;
+}
+
+.editProf {
+    padding-top: 10px;
+    font-size: small;
+}
+
+.editProf a {
+    color: dodgerblue;
+    align-items: center;
+}
